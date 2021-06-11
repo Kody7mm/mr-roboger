@@ -15,3 +15,21 @@ function robotTranslate(number) {
   }
   return output;
 };
+
+//User Logic//
+$(document).ready(function () {
+  $("#formOne").submit(function (event) {
+    event.preventDefault();
+
+    let userInput = $("#numberVal").val();
+    let newArray = robotTranslate(userInput);
+
+    let joinedArray = [];
+    joinedArray.push(newArray.join(" "));
+
+    $(".speech-bubble").show();
+    $("#result").text(joinedArray);
+
+    $("#result").show();
+  });
+});
