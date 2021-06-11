@@ -16,6 +16,10 @@ p {
   color: brown;
 }
 
+.img1 {
+  position: right;
+}
+
 .column1 {
   width: 400px;
   float: right;
@@ -32,6 +36,19 @@ p {
 }
 
 .column2 {
+  width: 400px;
+  float: left;
+  border-style: solid;
+  border-width: thick;
+  border-color: tan;
+  margin-top: 20px;
+  margin-left: 20px;
+  box-sizing: border-box;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.column3 {
   width: 400px;
   float: left;
   border-style: solid;
