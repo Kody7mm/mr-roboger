@@ -2,8 +2,44 @@
   text-align: center;
   color: brown;
 }
+
+.header {
+  text-align: center;
+}
+
 h2 {
   color: brown;
+}
+
+p {
+  color: brown;
+}
+
+h3 {
+  color: brown;
+}
+
+.column1 {
+  width: 400px;
+  float: right;
+  border-style: solid;
+  border-width: thick;
+  border-color: beige;
+  margin-top: 20px;
+  margin-left: 20px;
+  box-sizing: border-box;
+  color: brown;
+}
+
+.column2 {
+  width: 400px;
+  float: left;
+  border-style: solid;
+  border-width: thick;
+  border-color: beige;
+  margin-top: 20px;
+  margin-left: 20px;
+  box-sizing: border-box;
 }
 
 #formOne {
